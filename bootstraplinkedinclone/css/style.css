@@ -1,0 +1,160 @@
+.navbarbg {
+  height: 55px;
+  background-color: white;
+}
+
+/* 
+  Arama alanı içerisine padding-right ile sağdan boşluk bırakıldı.
+  Arama alanı ve menü arası boşluk için arama alanına sağ margin verildi. 
+*/
+input.searche {
+  height: 36px;
+  max-width: 500px;
+  background-color: #eef3f8;
+  border: 0;
+
+  padding-right:90px;
+  margin-right: 190px;
+}
+
+/*
+  Placeholder'a sol padding verilerek arama kısmındaki search simgesi ile  Arama Yap yazısı arası mesafe ayarlandı.
+  Background size ayarı değiştirilerek uygun görünüm elde edildi.
+*/
+input.searche::placeholder {
+  font-size: 14px;
+  color: gray;
+  background-image: url(/bootstraplinkedinclone/assets/search-solid.svg);
+  background-repeat: no-repeat;
+
+  background-size: 8% 100%;
+  padding-left: 24px;
+}
+
+.body {
+  background-color: #f3f2ef;
+}
+
+/* Mouse cursor ile üzerine gelinince arkaplan rengi değişmesi istenen yerler için divHover isimli class'a hover tanımlandı. */
+div.divHover:hover{
+  background-color:rgb(235, 230, 230);
+}
+.menutext {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  margin-top: 5px;
+  font-weight: lighter;
+}
+
+.menutext:hover {
+  color: black;
+}
+
+button.mediatext {
+  color: #5f5f5f;
+}
+
+.mediatext {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5f5f5f;
+}
+
+i {
+  color: gray;
+  margin-top: 8px;
+}
+i:hover {
+  color: black;
+}
+
+input.content {
+  border-radius: 40px;
+  height: 45px;
+}
+input.content::placeholder {
+  font-weight: bolder;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/bootstraplinkedinclone/assets/edit-regular.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+
+  /* Gönderi başlat placeholder'ı içinde icon ile yazı arasında boşluk için padding-left:  kullanıldı.*/
+  padding-left: 28px;
+}
+
+div.card {
+  border-radius: 10px;
+}
+
+.header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.view {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #5f5f5f;
+}
+
+.categories {
+  font-size: 13px;
+  font-weight: bold;
+  color: #0a66c2;
+}
+
+li {
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+
+.link {
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #5f5f5f;
+}
+
+
+/* ref isimli class'ı olan butonlara hover özelliği olarak background-color değişikliği için style verildi. */
+button.ref:hover {
+  color: #5f5f5f;
+  background-color:rgb(235, 230, 230);
+}
+
+/* Sağ panel butonları görünümü */
+.solPanelBtn{
+  background-color: #fff;
+  border-radius: 50px;
+  color:#70B5F9;
+  border: 2px solid #70B5F9;
+}
+
+/* Sağ panel butonların üzerine mouse ile gelindiğinde olması istenen */
+button.blueHover:hover{
+  color: #fff;
+  background-color: #70B5F9;
+}
+
+.postphoto {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.posttext {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 8px;
+}
